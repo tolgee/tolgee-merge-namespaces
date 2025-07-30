@@ -1,0 +1,8 @@
+{
+  "$schema": "https://docs.tolgee.io/cli-schema.json",
+  "projectId": 20784,
+  "format": "JSON_TOLGEE",
+  "pull": {
+    "path": "./i18n"
+  }
+}

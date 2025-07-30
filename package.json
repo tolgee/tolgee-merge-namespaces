@@ -1,0 +1,14 @@
+{
+  "name": "namespaces_workaround",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tolgee-pull": "tolgee pull && node merge-namespaces.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tolgee/cli": "^2.13.0"
+  }
+}
