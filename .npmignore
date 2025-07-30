@@ -40,3 +40,5 @@ build/
 # Example files
 examples/
 demo/
+i18n
+.tolgeerc.json

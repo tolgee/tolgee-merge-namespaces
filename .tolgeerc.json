@@ -3,6 +3,7 @@
   "projectId": 20784,
   "format": "JSON_TOLGEE",
   "pull": {
-    "path": "./i18n"
+    "path": "./i18n",
+    "fileStructureTemplate": "{namespace}/{languageTag}.{extension}"
   }
 }

@@ -1,13 +1,27 @@
 {
-  "name": "namespaces_workaround",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "tolgee-pull": "tolgee pull && node merge-namespaces.js"
+  "name": "tolgee-merge-namespaces",
+  "version": "1.0.1",
+  "description": "A tool to merge translations across namespaces in Tolgee i18n files",
+  "main": "merge-namespaces.js",
+  "bin": {
+    "tolgee-merge-namespaces": "merge-namespaces.js"
   },
+  "scripts": {
+    "tolgee-pull": "tolgee pull && npx tolgee-merge-namespaces",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublishOnly": "chmod +x merge-namespaces.js",
+    "postinstall": "chmod +x merge-namespaces.js"
+  },
+  "keywords": [
+    "tolgee",
+    "i18n",
+    "internationalization",
+    "localization",
+    "translation",
+    "namespace"
+  ],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "@tolgee/cli": "^2.13.0"
   }
